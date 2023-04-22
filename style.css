@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    scroll-padding-top: 10vh;
 }
 
 /* Nav */
@@ -18,6 +19,7 @@
     align-items: center;
     padding: 3vw;
     width: 100vw;
+    background-color: #3ebeff;
 }
 
 .nav-list {
@@ -35,7 +37,7 @@
     text-decoration: none;
     color: hsl(0, 0%, 100%);
     font-family: 'Barlow', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .nav-link > button {
@@ -198,4 +200,57 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.contact-links {
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-links > a > img {
+    padding-left: 45vw;
+    padding-right: 45vw;
+    filter: brightness(0) saturate(100%) invert(27%) sepia(43%) saturate(486%) hue-rotate(116deg) brightness(92%) contrast(91%);
+}
+
+.contact-links > .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7vh;
+    padding-left: 40vw;
+    padding-right: 40vw;
+}
+
+.contact-links > .nav-list > li {
+    list-style: none;
+}
+
+.contact-links > .nav-list > li > .nav-link {
+    text-decoration: none;
+    color: hsl(168, 34%, 41%);
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+}
+
+.contact-links > .nav-list > li > .nav-link:hover {
+    color: hsl(0, 0%, 100%)
+}
+
+.contact-socials {
+    text-align: center;
+    letter-spacing: 0.75vw;
+    padding-top: 10vh;
+}
+
+.contact-socials > i {
+    color: #25564b;
+    font-size: 22px;
+}
+
+.contact-socials > i:hover {
+    color: hsl(0, 0%, 100%);
 }
