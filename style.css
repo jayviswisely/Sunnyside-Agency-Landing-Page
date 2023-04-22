@@ -46,7 +46,12 @@
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 12px;
-    padding: 1vh 2vw;
+    padding: 1.5vh 2vw;
+}
+
+.nav-link > button:hover {
+    background-color: hsl(0, 0%, 100%, 0.3);
+    color: hsl(0, 0%, 100%);
 }
 
 /* Home */
@@ -75,4 +80,122 @@
     height: 15vh;
     position: absolute;
     top: 43%;
+}
+
+/* About */
+
+.about {
+    height: 132vh;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.about-section {
+    height: 66vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+.about-item {
+    width: 50vw;
+    height: 66vh;
+}
+
+.egg {
+    background-image: url(./images/desktop/./image-transform.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.glass {
+    background-image: url(./images/desktop/./image-stand-out.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* Services */
+.services {
+    height: 66vh;
+}
+
+.services-section {
+    height: 66vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+.services-item {
+    width: 50vw;
+    height: 66vh;
+}
+
+.cherry {
+    background-image: url(./images/desktop/./image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.orange {
+    background-image: url(./images/desktop/./image-photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Projects */
+
+.projects {
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* Contact */
+
+.contact {
+    height: 100vh;
+    background-color: #91d3c5;
+}
+
+.contact-images {
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+}
+
+.contact-image {
+    height: 55vh;
+    width: 25vw;
+}
+
+.milk {
+    background-image: url(./images/desktop/./image-gallery-milkbottles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bowl {
+    background-image: url(./images/desktop/./image-gallery-orange.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cone {
+    background-image: url(./images/desktop/./image-gallery-cone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sugar {
+    background-image: url(./images/desktop/./image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
