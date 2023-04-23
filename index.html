@@ -9,26 +9,31 @@
   </head>
   <body>
 
-    <nav class="nav">
+    <nav class="nav burger">
       <a href="#">
         <img src="./images/logo.svg">
       </a>
-      <ul class="nav-list">
+      <ul class="nav-list burger">
         <li>
-          <a href="#about" class="nav-link">About</a>
+          <a href="#about" class="nav-link burger">About</a>
         </li>
         <li>
-          <a href="#services" class="nav-link">Services</a>
+          <a href="#services" class="nav-link burger">Services</a>
         </li>
         <li>
-          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#projects" class="nav-link burger">Projects</a>
         </li>
         <li>
-          <a href="#contact" class="nav-link">
-            <button type="button">Contact</button>
+          <a href="#contact" class="nav-link burger">
+            <button type="button">CONTACT</button>
           </a>
         </li>
       </ul>
+      <div class="nav-hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
     </nav>
 
     <div class="home">
@@ -39,7 +44,7 @@
     </div>
 
     <div class="about" id="about">
-      <div class="about-section">
+      <div class="about-section one">
         <div class="about-item left">
           <h1>Transform your brand</h1>
           <p>
@@ -50,7 +55,7 @@
         </div>
         <div class="about-item egg"></div>
       </div>
-      <div class="about-section">
+      <div class="about-section two">
         <div class="about-item glass"></div>
         <div class="about-item right">
           <h1>Stand out to the right audience</h1>
@@ -131,6 +136,7 @@
         </ul>
       </div>
       <a id="contact"></a>
+      <script src="./hamburger.js"></script>
       <script src="https://kit.fontawesome.com/fb2d751829.js" crossorigin="anonymous"></script>
     </div>
   </body>
